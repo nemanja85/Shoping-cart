@@ -24,10 +24,3 @@ Open http://localhost:3000 to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-
-## Author
-
-
-👤 **Nemanja Mitic**
-* Github: [@Nemanja85](https://github.com/nemanja85)
-* LinkedIn: [@Nemanja Mitic](https://www.linkedin.com/in/nemanjamitic1985/)
