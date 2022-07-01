@@ -7,7 +7,7 @@ import { Store } from './pages/Store';
 
 function App() {
   return (
-    <shoppingCartProvider>
+    <>
       <Navbar>
         <Container>
           <Routes>
@@ -17,7 +17,7 @@ function App() {
           </Routes>
         </Container>
       </Navbar>
-    </shoppingCartProvider>
+    </>
   );
 }
 

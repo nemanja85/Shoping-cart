@@ -1,9 +1,13 @@
-import { Button, Container, Nav, Navbar as NavBar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar as Navigation } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-export function Navbar() {
+export type NavBar = {
+  children: React.ReactNode;
+};
+
+export function Navbar(props: NavBar) {
   return (
-    <NavBar sticky="top" className="bg-white shadow-md mb-3">
+    <Navigation sticky="top" className="bg-white shadow-md mb-3">
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
@@ -40,6 +44,6 @@ export function Navbar() {
           </div>
         </Button>
       </Container>
-    </NavBar>
+    </Navigation>
   );
 }
