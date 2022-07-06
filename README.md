@@ -16,6 +16,14 @@ react-ts
 ## Getting Started
 
 ```sh
+git clone https://github.com/nemanja85/Shoping-cart.git
+```
+
+```sh
+cd Shoping-cart
+```
+
+```sh
 npm run dev
 ```
 
