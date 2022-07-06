@@ -1,5 +1,5 @@
 # Shoping-cart
-Testing out React, Typescript and Bootstrap
+Testing out React, Typescript, React-Bootstrap and Vite
 
 ## Install
 
