@@ -1,11 +1,13 @@
 import { Button, Container, Nav, Navbar as Navigation } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 
 export type NavBar = {
   children: React.ReactNode;
 };
 
 export function Navbar(props: NavBar) {
+  const { openCart, cartQuantity } = useShoppingCart() 
   return (
     <Navigation sticky="top" className="bg-white shadow-md mb-3">
       <Container>
@@ -20,7 +22,9 @@ export function Navbar(props: NavBar) {
             Store
           </Nav.Link>
         </Nav>
+        {cartQuantity > 0 && (
         <Button
+          onClick={openCart}
           style={{ width: '3rem', height: '3rem', position: 'relative' }}
           variant="outline-primary"
           className="rounded-circle"
@@ -40,9 +44,10 @@ export function Navbar(props: NavBar) {
               transform: 'translate(25%, 25%)',
             }}
           >
-            7
+            {cartQuantity}
           </div>
         </Button>
+        )}
       </Container>
     </Navigation>
   );
