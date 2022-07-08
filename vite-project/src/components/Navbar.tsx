@@ -26,7 +26,7 @@ export function Navbar(props: NavBar) {
         <Button
           onClick={openCart}
           style={{ 
-              position: 'relative'
+              position: 'relative',
               width: '3rem',
               height: '3rem'
             }}
