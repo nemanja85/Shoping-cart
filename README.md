@@ -1,18 +1,6 @@
 # Shopping-cart
 Testing out React, Typescript, React-Bootstrap and Vite
 
-## Install
-
-```sh
-npm init @vitejs/app
-```
-
-## Choose
-
-```sh
-react-ts
-```
-
 ## Getting Started
 
 ```sh
@@ -21,6 +9,12 @@ git clone https://github.com/nemanja85/Shoping-cart.git
 
 ```sh
 cd Shoping-cart
+```
+
+## Install
+
+```sh
+npm init @vitejs/app
 ```
 
 ```sh
