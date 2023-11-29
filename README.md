@@ -14,7 +14,7 @@ cd Shoping-cart
 ## Install
 
 ```sh
-npm init @vitejs/app
+npm install
 ```
 
 ```sh
